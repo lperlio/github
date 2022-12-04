@@ -104,6 +104,7 @@ li {
 
 i.fas {
     margin-right: 1rem;
+    margin-left: -4px;
 }
 
 .fonct ol li span {
@@ -142,7 +143,14 @@ i.fas {
     border-radius: 20px;
     margin: 20px;
     position: relative;
-   
+}
+
+.resto i {
+    position: relative;
+}
+
+.resto2 i {
+    position: relative;
 }
 
 .resto2 {
@@ -182,11 +190,30 @@ img {
 
 i.far.fa-heart {
     font-size: 2rem;
-    position: relative;
+    position: absolue;
     right: -18rem;
     top: -2rem;
 }
 
+i.fas.fa-heart {
+    font-size: 2rem;
+    position: absolue;
+    right: -16rem;
+    top: -2rem;
+}
+
+.resto .fas {
+    color: transparent;
+    background: linear-gradient(#9356DC, #FF79DA);
+    background-clip: text;
+    opacity: 0;
+    transition: all 100ms ease-in-out;
+}
+
+.resto p .fas:hover {
+    opacity: 1;
+    transform: translateY(-50%), scale(1.2);
+}
 
 
 /* Partie 6 Footer */
@@ -212,7 +239,7 @@ i.far.fa-heart {
     display: flex;
     align-items: center;
     color: white;
-    margin-bottom: 18px;
+    margin-bottom: -15px;
 }
 
 .alignement span {
