@@ -35,6 +35,8 @@ main .city {
     background-color: #F3F3F3;
     text-align: center;
     padding: 0.5rem;
+    margin-left: -17px;
+    margin-right: -17px;
 }
 
 main .city i {
@@ -170,11 +172,13 @@ img {
 
 .new {
     background-color: #99E2D0;
+    border-radius: 8%;
     position: absolute;
     padding: 5px;
     right: 18px;
     top: 18px;
 }
+
 
 i.far.fa-heart {
     font-size: 2rem;
@@ -201,5 +205,21 @@ i.far.fa-heart {
 }
 
 .pied p {
+    color: white;
+}
+
+.alignement {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.alignement span {
+    margin-left: 7px;
+}
+
+a:link {
+    text-decoration: none;
     color: white;
 }
