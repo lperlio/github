@@ -210,7 +210,7 @@ i.fas.fa-heart {
     transition: all 100ms ease-in-out;
 }
 
-.resto p .fas:hover {
+.resto .fas:hover {
     opacity: 1;
     transform: translateY(-50%), scale(1.2);
 }
